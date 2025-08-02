@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-  background-color: #4c6baf;
+  background-color: rgb(31, 163, 31);
   color: white;
   text-align: center;
   padding: 2rem 1rem;
@@ -41,13 +41,14 @@ body {
 
 .summary .balance {
   font-size: 2rem;
-  color: rgb(104, 10, 255);
+  color: rgb(59, 170, 59);
   margin: 1rem 0;
-  font-weight: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
-  background-color: #4c6baf;
+  background-color: rgb(16, 161, 16);
   color: white;
   border: none;
   padding: 0.7rem 1.2rem;
@@ -58,7 +59,7 @@ body {
 }
 
 .btn:hover {
-  background-color: #4553a0;
+  background-color: green;
 }
 
 .transactions {
